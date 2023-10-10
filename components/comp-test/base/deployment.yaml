@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: comp-test
     spec:
       containers:
-      - image: java-quarkus-image:latest
+      - image: quay.io/abarbaro-org/spi-demos-olfp-tenant/rsenvapp/comp-test@sha256:8415beb7972976c6b3d9dbd7aae2e8724fbf7ca219e672c66c916cf262427bad
         name: my-java-quarkus
         ports:
         - containerPort: 8081
